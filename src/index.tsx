@@ -22,7 +22,6 @@ export const store = createStore(rootReducer, composeWithDevTools( ));
 
 render(
 	<Provider store={store}>
-		<div>Hola</div>
 		<BrowserRouter basename="/adricres96/reactApp">
 			<Switch>
 				<Route path={"/"} component={Home} exact />

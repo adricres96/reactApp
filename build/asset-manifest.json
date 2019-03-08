@@ -1,14 +1,14 @@
 {
-  "main.js": "/adricres96/reactApp/static/js/main.990609f1.chunk.js",
-  "main.js.map": "/adricres96/reactApp/static/js/main.990609f1.chunk.js.map",
-  "runtime~main.js": "/adricres96/reactApp/static/js/runtime~main.8dbaafc1.js",
-  "runtime~main.js.map": "/adricres96/reactApp/static/js/runtime~main.8dbaafc1.js.map",
-  "static/js/2.a7914040.chunk.js": "/adricres96/reactApp/static/js/2.a7914040.chunk.js",
-  "static/js/2.a7914040.chunk.js.map": "/adricres96/reactApp/static/js/2.a7914040.chunk.js.map",
-  "index.html": "/adricres96/reactApp/index.html",
-  "precache-manifest.e7c9692a72520ec643264f3eab92a67d.js": "/adricres96/reactApp/precache-manifest.e7c9692a72520ec643264f3eab92a67d.js",
-  "service-worker.js": "/adricres96/reactApp/service-worker.js",
-  "static/media/Pantheon-Roma.jpg": "/adricres96/reactApp/static/media/Pantheon-Roma.c35524e3.jpg",
-  "static/media/Roma-ninos-coliseo.jpg": "/adricres96/reactApp/static/media/Roma-ninos-coliseo.4fef5fcc.jpg",
-  "static/media/logo.svg": "/adricres96/reactApp/static/media/logo.5d5d9eef.svg"
+  "main.js": "/static/js/main.e4797033.chunk.js",
+  "main.js.map": "/static/js/main.e4797033.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
+  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
+  "static/js/2.a7914040.chunk.js": "/static/js/2.a7914040.chunk.js",
+  "static/js/2.a7914040.chunk.js.map": "/static/js/2.a7914040.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.d99ecb4acbdbd934b5d9a2cb7c42f212.js": "/precache-manifest.d99ecb4acbdbd934b5d9a2cb7c42f212.js",
+  "service-worker.js": "/service-worker.js",
+  "static/media/Pantheon-Roma.jpg": "/static/media/Pantheon-Roma.c35524e3.jpg",
+  "static/media/Roma-ninos-coliseo.jpg": "/static/media/Roma-ninos-coliseo.4fef5fcc.jpg",
+  "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
 }
