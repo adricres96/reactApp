@@ -16,15 +16,15 @@ self.__precacheManifest = [
     "url": "/adricres96/reactApp/static/js/runtime~main.8dbaafc1.js"
   },
   {
-    "revision": "d78823f5c55485b949c1",
-    "url": "/adricres96/reactApp/static/js/main.d78823f5.chunk.js"
+    "revision": "f92bac26da7e70b8bfcb",
+    "url": "/adricres96/reactApp/static/js/main.f92bac26.chunk.js"
   },
   {
     "revision": "a7914040580f9f3953ae",
     "url": "/adricres96/reactApp/static/js/2.a7914040.chunk.js"
   },
   {
-    "revision": "6e983d1ef745dd803797df78c5bab1f5",
+    "revision": "ea69f323a09c3155fd3621f89810c839",
     "url": "/adricres96/reactApp/index.html"
   }
 ];

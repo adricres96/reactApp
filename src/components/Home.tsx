@@ -40,7 +40,7 @@ class Home extends React.Component {
     		<div className="container2">
     		  <div className="item">
     		  	<img src={logo} className="Applogo" alt="logo" />
-    			<h3 className="whiteText">-- React + TypeScript + Redux --</h3>
+    			<h3 className="whiteText">--- React + TypeScript + Redux ---</h3>
     			<hr />
     			<br /><br />
     			<EntranceButton />
