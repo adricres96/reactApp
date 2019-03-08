@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://github.com/adricres96/reactApp",
+  "homepage" : "https://github.com/adricres96/reactApp.git",
   "dependencies": {
     "@types/jest": "^24.0.9",
     "@types/node": "^11.9.5",

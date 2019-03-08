@@ -13,7 +13,7 @@ import rootReducer from './reducers'
 import Home from './components/Home'
 import GeneralData from './components/GeneralData'
 import { composeWithDevTools } from 'redux-devtools-extension';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import About from './components/About';
 import CV from './components/CV';
 
@@ -22,7 +22,7 @@ export const store = createStore(rootReducer, composeWithDevTools( ));
 
 render(
 	<Provider store={store}>
-		<BrowserRouter basename="/reactApp">
+		<BrowserRouter basename={'/adricres96/reactApp'}>
 			<Switch>
 				<Route path={"/"} component={Home} exact />
 				<Route path={"/generalData"} component={GeneralData} />
