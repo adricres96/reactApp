@@ -1,0 +1,303 @@
+$ease: cubic-bezier(.2,1,.3,1);
+
+.rightPart{
+}
+
+.pruebaaaaa{}
+
+.fotoPresentacion {
+	position:relative;
+	max-width: 100%;
+    height: auto;
+}
+
+.divGeneralData{
+
+}
+
+div{}
+
+.divGeneralData1 {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-gap: 15%;
+	padding: 5%;
+}
+
+.box {
+	width: 80%;
+	float: down;
+	margin: 6% 0% 2% 0%;
+	outline: 2px solid black;
+}
+
+.header {
+	text-align: center;
+	color: purple;
+
+}
+
+.footer {
+	text-align: center;
+	color: purple;
+
+}
+
+
+
+.p {
+	text-align: center;
+	color: blue;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 20px 0;
+    width: 70%;
+    border-bottom: 1px solid #cecece;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #333333;
+}
+
+.container2 {
+  position: relative;
+}
+
+.topleft {
+  position: absolute;
+  top: 10%;
+  left: 16px;
+}
+
+.topright {
+  position: absolute;
+  top: 10%;
+  right: 2%;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald:300,400,700');
+
+html {
+  font-size:100%; // normally 16px
+}
+
+
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Oswald", sans;
+  font-size: 4rem;
+  font-weight: normal;
+  line-height: 3.5rem;
+}
+
+h3 {
+  font-size: 1.35rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px; // Smaller headers look better with spacing
+}
+
+.container2 {
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: url(https://images.unsplash.com/photo-1456305951335-bb8134aeab8a);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+}
+
+.item {
+  /* Padding is used for smaller screens */
+
+  padding: 30px 20px 0px 20px;
+  text-align: center;
+}
+
+
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+  display: inline-block;
+  line-height: 1.25rem;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .75rem 1.25rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: all .2s ease-in-out;
+
+  &.btn-primary {
+    color: #fff;
+    background-color: #000;
+    border-color: #666;
+
+    &:hover {
+      color: #fff;
+      background-color: #333;
+      border-color: #666;
+    }
+  }
+}
+
+
+.whiteText {
+	color:white;
+}
+
+.Applogo {
+  animation: Applogospin infinite 30s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.ApplogoLittle {
+  animation: Applogospin infinite 35s linear;
+  height: 8.5vmin;
+  pointer-events: none;
+}
+
+
+
+.wrapper {
+
+	position: relative;
+	transform:rotate(90deg);
+}
+
+.wrapper svg {
+	fill:white;
+	width: 100px;
+	height: auto;
+	margin: 0 2rem;
+	cursor: pointer;
+	overflow: visible;
+}
+
+.wrapper svg polygon, path {
+      transition: all 0.5s ;
+}
+
+.wrapper svg:hover polygon{
+	transition: all 1s;
+	fill: #61DBFB;
+}
+
+.wrapper svg:hover path {
+	transition: all 1s;
+	fill: #61DBFB;
+}
+
+.wrapper svg:hover .arrow {
+	animation: arrowanim 2.5s infinite;
+}
+
+.wrapper svg:hover .arrowfixed {
+	animation: arrowfixedanim 2.5s infinite;
+}
+
+
+.especialButton{
+  background:#E5E5E5;
+  color:#fff;
+  border-radius: 4px;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.especialButton:hover{
+  background:#fff;
+  color:#61DBFB;
+  border:none;
+}
+.especialButton:before,.especialButton:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #61DBFB;
+  transition:400ms ease all;
+}
+.especialButton:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.especialButton:hover:before,.especialButton:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+@keyframes Applogospin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+@keyframes arrowanim {
+	0% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+	5% {
+		transform: translateX(-0.1rem);
+	}
+	100% {
+		transform: translateX(1rem);
+		opacity: 0;
+	}
+}
+
+@keyframes arrowfixedanim {
+	5% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0.4;
+	}
+	100% {
+		opacity: 1;
+	}
+}

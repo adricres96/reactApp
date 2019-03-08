@@ -1,0 +1,34 @@
+import { bool } from "prop-types";
+
+let nextTodoId = 0
+export const addTodo = (text:string) => ({
+  type: 'ADD_TODO',
+  id: nextTodoId++,
+  text
+})
+
+export const setVisibilityFilter = (filter:string) => ({
+  type: 'SET_VISIBILITY_FILTER',
+  filter
+})
+
+export const toggleTodo = (id:number) => ({
+  type: 'TOGGLE_TODO',
+  id
+})
+
+export const VisibilityFilters = {
+  SHOW_ALL: 'SHOW_ALL',
+  SHOW_COMPLETED: 'SHOW_COMPLETED',
+  SHOW_ACTIVE: 'SHOW_ACTIVE'
+}
+
+export const setNumSlide = (numSlide:number) => ({
+  type: 'SET_NUM_SLIDE',
+  numSlide
+})
+
+export const setDropdownVisibilityFilter = (elements:[]) => ({
+  type: 'SET_DROPDOWN_VISIBILITY_FILTER',
+  elements
+}) 
